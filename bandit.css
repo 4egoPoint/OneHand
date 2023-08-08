@@ -1,0 +1,59 @@
+.balans {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 10px;
+}
+
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.row {
+  border: 2px solid black;
+  border-radius: 30%;
+  background: url(./bandit-plase.jpg) center no-repeat;
+  height: 300px;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: white;
+}
+
+.num1 {
+  margin-left: 50px;
+  padding-top: 145px;
+}
+
+.num2 {
+  padding-top: 145px;
+}
+
+.num3 {
+  margin-right: 60px;
+  padding-top: 145px;
+}
+
+.start {
+  width: 78%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(19, 140, 19);
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+.start:hover {
+  color: black;
+  padding: 5px;
+  background-color: rgb(79, 184, 79);
+}
+
+body {
+  background: url(./bandit-wallpaper.jpg);
+}/*# sourceMappingURL=bandit.css.map */
